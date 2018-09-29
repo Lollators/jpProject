@@ -39,6 +39,10 @@ OraclProduction Ltd are specialists in producing production line manufacturing p
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE of choice
 
+## Plugins Used
+* [FindBugs](http://findbugs.sourceforge.net/)
+* [CheckStyle](http://checkstyle.sourceforge.net/config_naming.html#PackageName) - Google Checks used
+
 ## Authors
 
 * **Luca Missaglia** - *Project Developer* - [Lollators](https://github.com/Lollators)
