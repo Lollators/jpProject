@@ -10,29 +10,29 @@ The project is subdivided in multiple sections. The level of completion will be 
 OraclProduction Ltd are specialists in producing production line manufacturing plants. They could be asked to create a production plant for any type of product ranging from a simple packaging system to a variety of electronic devices. Recently they have been asked to create a production line for multimedia devices which include music and movie players. They wish to employee you to design a template in Java for creating and recording all future production line items. For this particular production facility you will only implement a concrete class for music and movie players.Your task is to create a flexible structure that could be used in any production line. This structure would then allow easy modification to handle different products.
 
 ## Level of Completion
-* Step 01 : :white_check_mark:
-* Step 02 : :white_check_mark:
-* Step 03 : :white_check_mark:
-* Step 04 : :o:
-* Step 05 : :o:
-* Step 06 : :o:
-* Step 07 : :o:
-* Step 08 : :o:
-* Step 09 : :o:
-* Step 10 : :o:
-* Step 11 : :o:
-* Step 12 : :o:
-* Step 13 : :o:
-* Step 14 : :o:
-* Step 15 : :o:
-* Step 16 : :o:
-* Step 17 : :o:
-* Step 18 : :o:
-* Step 19 : :o:
-* Step 20 : :o:
-* Step 21 : :o:
-* Step 22 : :o:
-* Step 23 : :o:
+- [X] Step 1
+- [X] Step 2
+- [X] Step 3
+- [ ] Step 4
+- [ ] Step 5
+- [ ] Step 6
+- [ ] Step 7
+- [ ] Step 8
+- [ ] Step 9
+- [ ] Step 10
+- [ ] Step 11
+- [ ] Step 12
+- [ ] Step 13
+- [ ] Step 14
+- [ ] Step 15
+- [ ] Step 16
+- [ ] Step 17
+- [ ] Step 18
+- [ ] Step 19
+- [ ] Step 20
+- [ ] Step 21
+- [ ] Step 22
+- [ ] Step 23
 
 ## Built With
 
