@@ -1,6 +1,7 @@
 # OraclProduction Project
 
 This project is aimed to complete the OraclProduction Project, which can be found at www.oracle.com/academy.
+
 The files contained in this repository are used for grading purposes in the COP 3003 class of the fall semester 2018.
 The programming language used is **Java**.
 The project is subdivided in multiple sections. The level of completion will be displayed under the **Level of Completion** section of this README.
