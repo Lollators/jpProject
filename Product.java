@@ -35,8 +35,9 @@ public abstract class Product implements Item {
 
   /**
    * Class constant that stores the next number to be assigned to serialNumber.
+   * Starts at value 1 for first product.
    */
-  private static int currentProductionNumber;
+  private static int currentProductionNumber = 1;
 
   /**
    * Function that sets the production number of a product.
