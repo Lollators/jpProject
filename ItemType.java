@@ -9,16 +9,16 @@ public enum ItemType {
   VM("VisualMobile");
 
   /**
-   * Constant description, used to retrieve significance of enum code.
+   * Constant code, used to retrieve significance of enum code.
    */
-  public final String description;
+  public final String code;
 
   /**
-   * Constructor that sets the description of enum.
+   * Constructor that sets the code of enum.
    *
-   * @param description - Description of enum
+   * @param code - Code of enum
    */
-  ItemType(String description) {
-    this.description = description;
+  ItemType(String code) {
+    this.code = code;
   }
 }
