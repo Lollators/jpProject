@@ -14,19 +14,19 @@ OraclProduction Ltd are specialists in producing production line manufacturing p
 - [X] Step 1
 - [X] Step 2
 - [X] Step 3
-- [ ] Step 4
-- [ ] Step 5
-- [ ] Step 6
-- [ ] Step 7
-- [ ] Step 8
-- [ ] Step 9
-- [ ] Step 10
-- [ ] Step 11
-- [ ] Step 12
-- [ ] Step 13
-- [ ] Step 14
-- [ ] Step 15
-- [ ] Step 16
+- [X] Step 4
+- [X] Step 5
+- [X] Step 6
+- [X] Step 7
+- [X] Step 8
+- [X] Step 9
+- [X] Step 10
+- [X] Step 11
+- [X] Step 12
+- [X] Step 13
+- [X] Step 14
+- [X] Step 15
+- [X] Step 16
 - [ ] Step 17
 - [ ] Step 18
 - [ ] Step 19
