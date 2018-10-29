@@ -1,9 +1,6 @@
-
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 public class Main {
 
@@ -15,16 +12,8 @@ public class Main {
     // Write one line of code to call testCollection and assign the result to the ArrayList
     myArrayList = testCollection();
     // Write one line of code to sort the ArrayList
-    Collections.sort(myArrayList, new Comparator<Product>() {
-      @Override
-      public int compare(Product o1, Product o2) {
-        return o1.getName().compareTo(o2.getName());
-      }
-    });
-    // Call the print method on the ArrayList
-    printList(myArrayList);
+    Collections.sort(myArrayList, Product::compareTo);
   }
-
   // Step 15
   // Complete the header for the testCollection method here
 
@@ -49,8 +38,9 @@ public class Main {
 
   // Step 16
   // Create print method here
-  public static void printList(ArrayList<Product> myList){
-    for (Product p: myList) {
+  public static void print(Iterable<?> myList){
+    //foreach loop that goes through the entire list and prints objects
+    for (Object p: myList) {
       System.out.print(p);
     }
   }

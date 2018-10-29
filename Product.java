@@ -11,7 +11,7 @@
 
 import java.util.Date;
 
-public abstract class Product implements Item {
+public abstract class Product implements Item, Comparable<Product> {
 
   /**
    * Serial number of a product.
@@ -117,6 +117,28 @@ public abstract class Product implements Item {
     productToString += "Name          : " + name + '\n';
 
     return productToString;
+  }
+
+  @Override
+  public boolean equals(Object obj){
+    if (this == obj) return true;
+    if (!(obj instanceof Product)) return false;
+
+    Product that = (Product)obj;
+    return this.name.equals(that.name);
+  }
+
+  @Override
+  public int hashCode(){
+    return name.hashCode();
+  }
+
+  @Override
+  public int compareTo(Product that){
+    //returns -1 if "this" object is less than "that" object
+    //returns 0 if they are equal
+    //returns 1 if "this" object is greater than "that" object
+    return this.name.compareTo(that.name);
   }
 
 }
